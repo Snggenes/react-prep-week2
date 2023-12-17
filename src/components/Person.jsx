@@ -10,7 +10,7 @@ export default function Person({ person }) {
           <li>Email: {person.email}</li>
         </ul>
       ) : (
-        <p>hi</p>
+        <p>Loading</p>
       )}
     </div>
   );
